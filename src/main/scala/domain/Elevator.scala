@@ -1,6 +1,6 @@
 package domain
 
-import domain.Elevator.{ElevatorId, Direction, Floor}
+import domain.Elevator.{Direction, ElevatorId, Floor}
 
 /**
  * Basic functionality of an elevator.
@@ -10,7 +10,7 @@ trait Elevator {
   /**
    * Id of the elevator.
    */
-  val id : ElevatorId
+  val id: ElevatorId
 
   /**
    * Trigger movement.

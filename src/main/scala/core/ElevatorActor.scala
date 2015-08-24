@@ -1,9 +1,9 @@
 package core
 
-import akka.actor.{Cancellable, ActorRef, Actor, Props}
+import akka.actor.{Actor, ActorRef, Cancellable, Props}
 import domain.Elevator._
+import domain.ElevatorControlSystem._
 import domain.{Elevator, ElevatorControlSystem}
-import ElevatorControlSystem._
 import org.slf4j.LoggerFactory
 
 import scala.concurrent.duration._
